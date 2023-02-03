@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Calculator</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+            crossorigin="anonymous" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="app.js" defer></script>
+    </head>
+    <body style="background-color: gainsboro">
+        <div class="main">
+            <div class="calculator-body">
+                <div id="calculator" class="container mx-auto my-5">
+                    <div id="screen">
+                        <p id="history"></p>
+                        <h3 id="curr"></h3>
+                    </div>
+                    <div id="row1" class="my-1">
+                        <button id="ac" class="btn btn-primary normal"
+                            >C</button
+                        >
+                        <button id="sign" class="btn btn-primary normal"
+                            >+/-</button
+                        >
+                        <button id="percent" class="btn btn-primary normal"
+                            >%</button
+                        >
+                        <button id="div" class="btn btn-primary normal"
+                            >/</button
+                        >
+                    </div>
+                    <div id="row2" class="my-1">
+                        <button id="b7" class="btn btn-secondary normal num"
+                            >7</button
+                        >
+                        <button id="b8" class="btn btn-secondary normal num"
+                            >8</button
+                        >
+                        <button id="b9" class="btn btn-secondary normal num"
+                            >9</button
+                        >
+                        <button id="mul" class="btn btn-primary normal"
+                            >*</button
+                        >
+                    </div>
+                    <div id="row3" class="my-1">
+                        <button id="b4" class="btn btn-secondary normal num"
+                            >4</button
+                        >
+                        <button id="b5" class="btn btn-secondary normal num"
+                            >5</button
+                        >
+                        <button id="b6" class="btn btn-secondary normal num"
+                            >6</button
+                        >
+                        <button id="sub" class="btn btn-primary normal"
+                            >-</button
+                        >
+                    </div>
+                    <div id="row4" class="my-1">
+                        <button id="b1" class="btn btn-secondary normal num"
+                            >1</button
+                        >
+                        <button id="b2" class="btn btn-secondary normal num"
+                            >2</button
+                        >
+                        <button id="b3" class="btn btn-secondary normal num"
+                            >3</button
+                        >
+                        <button id="sum" class="btn btn-primary normal"
+                            >+</button
+                        >
+                    </div>
+                    <div id="row5" class="my-1">
+                        <button id="b0" class="btn btn-secondary large num"
+                            >0</button
+                        >
+                        <button id="dec" class="btn btn-secondary normal"
+                            >.</button
+                        >
+                        <button id="equal" class="btn btn-primary normal"
+                            >=</button
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="text-center"
+            ><strong>NOTE:</strong>
+            <i
+                >AC button has two modes: If you click it one time, it clears
+                the screen but keeps previous number. If you double click, it
+                will clear all numbers.</i
+            ></p
+        >
+        <footer>
+            <p class="my-5 text-center"
+                >Made with <span class="text-danger">&hearts;</span> by
+                <a href="https://github.com/umutsatir"
+                    ><strong>nova.dev</strong></a
+                ></p
+            >
+        </footer>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"></script>
+    </body>
+</html>
